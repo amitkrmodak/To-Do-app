@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.App-header{
+  position: relative;
+}
+.Container{
+  position: absolute;
+  width: 50%;
+  top: 50px;
+}
+.heading{
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.Container header{
+  display: flex;
+  justify-content: space-between;
+}
+.list{
+  background-color: white;
 }
